@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Mi Página Personal - Adrián Elcano</title>
+
+    <style>
+        /* Estilos personalizados */
+        body {
+            background: linear-gradient(to right, #ece9e6, #ffffff); /* Fondo degradado suave */
+            font-family: 'Arial', sans-serif;
+        }
+
+        .navbar {
+            background-color: #343a40;
+        }
+
+        .navbar-nav .nav-link {
+            color: white !important;
+        }
+
+        .hero {
+            background-image: url('https://source.unsplash.com/1600x900/?tech,computer'); /* Imagen de fondo aleatoria */
+            background-size: cover;
+            background-position: center;
+            color: #ffcc00;
+            padding: 150px 0;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: bold;
+            color: #ffcc00; /* Cambié el color a un amarillo brillante */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Añadí sombra para mejorar la legibilidad */
+        }
+
+        .content-section {
+            padding: 60px 0;
+        }
+
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navegación -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Mi Página Personal</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Proyectos.html">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Sección Hero -->
+<section class="hero">
+    <div class="container">
+        <h1>¡Hola, soy Adrián Elcano!</h1>
+        <p>Estudiante de ASIR en CIP Cuatrovientos</p>
+    </div>
+</section>
+
+<!-- Contenido Principal -->
+<div class="container content-section">
+    <div class="row">
+        <!-- Sobre mí -->
+        <div class="col-md-6">
+            <h2>Sobre mí</h2>
+            <p>Me considero una persona sociable y comprometida. También apasionada por el mundo de la tecnología. Siempre estoy buscando nuevos retos que me permitan aprender y mejorar mis habilidades.</p>
+        </div>
+
+        <!-- Educación -->
+        <div class="col-md-6" id="educacion">
+            <h2>Educación</h2>
+            <p>He tenido la oportunidad de estudiar en los siguientes centros, que han hecho que llegue hasta aquí</p>
+            <ul>
+                <li>IES Basoko - Educación secundaria obligatoria</li>
+                <li>Salesianos Pamplona - Técnico de sistemas microinformáticos y redes</li>
+                <li>CIP Cuatrovientos - Técnico superior de administración de sistemas informáticos en red</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Intereses Personales -->
+    <div class="row mt-5" id="intereses">
+        <div class="col-md-12">
+            <h2>Intereses Personales</h2>
+            <p>Mis intereses incluyen:</p>
+            <ul>
+                <li>Desarrollo Web y Aplicaciones</li>
+                <li>Arduino</li>
+                <li>Bases de datos</li>
+                <li>Descubrir nuevas tecnologías</li>
+                <li>Viajar y conocer nuevos lugares</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <span>© 2024 Adrián Elcano Barbero | CIP Cuatrovientos</span>
+    </div>
+</footer>
+
+<!-- Bootstrap JS y jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Proyectos - Adrián Elcano</title>
+
+    <style>
+        /* Estilos personalizados */
+        body {
+            background: linear-gradient(to right, #ece9e6, #ffffff); /* Fondo degradado suave */
+            font-family: 'Arial', sans-serif;
+        }
+
+        .navbar {
+            background-color: #343a40;
+        }
+
+        .navbar-nav .nav-link {
+            color: white !important;
+        }
+
+        .hero {
+            background-image: url('https://source.unsplash.com/1600x900/?tech,projects');
+            background-size: cover;
+            background-position: center;
+            color: #ffcc00;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #ffcc00; /* Color de título */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra de texto */
+        }
+
+        .card {
+            cursor: pointer;
+        }
+
+        .content-section {
+            padding: 60px 0;
+        }
+
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navegación -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Mi Página Personal</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="proyectos.html">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Sección Hero -->
+<section class="hero">
+    <div class="container">
+        <h1>Proyectos</h1>
+        <p>Aquí encontrarás algunos de los proyectos en los que he trabajado.</p>
+    </div>
+</section>
+
+<!-- Contenido Principal -->
+<div class="container content-section">
+    <div class="row">
+        <!-- Card Proyecto I3 -->
+        <div class="col-md-4">
+            <div class="card" data-toggle="modal" data-target="#modalProyecto1">
+                <img src="i3.jpeg" class="card-img-top" alt="I3 Project">
+                <div class="card-body">
+                    <h5 class="card-title">I3</h5>
+                    <p class="card-text">Empatizando, creamos soluciones únicas.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card Proyecto Multiwatch -->
+        <div class="col-md-4">
+            <div class="card" data-toggle="modal" data-target="#modalProyecto2">
+                <img src="arduino.JPG" class="card-img-top" alt="Multiwatch Project">
+                <div class="card-body">
+                    <h5 class="card-title">Multiwatch</h5>
+                    <p class="card-text">Dispositivo de gestión de tiempo multi-plataforma.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card Proyecto Ibit -->
+        <div class="col-md-4">
+            <div class="card" data-toggle="modal" data-target="#modalProyecto3">
+                <img src="ibit.png" class="card-img-top" alt="Ibit Project">
+                <div class="card-body">
+                    <h5 class="card-title">Ibit</h5>
+                    <p class="card-text">Página web informática.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modales de Proyectos -->
+<!-- Modal Proyecto I3 -->
+<div class="modal fade" id="modalProyecto1" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">I3 - Empatizando, creamos soluciones únicas</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>I3 es un proyecto creado junto a Salesianos que consiste en crear dispositivos de ayuda para todo tipo de personas.</p>
+                <p>Funciones destacadas:</p>
+                <ul>
+                    <li>Trabajo en grupo</li>
+                    <li>Solución de problemas</li>
+                    <li>Apostar por un futuro mejor</li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Proyecto Multiwatch -->
+<div class="modal fade" id="modalProyecto2" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Multiwatch - Dispositivo de gestión de tiempo multi-plataforma.</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Multiwatch es una herramienta diseñada para ayudar a los usuarios a gestionar su tiempo de manera eficiente.</p>
+                <p>Funciones destacadas:</p>
+                <ul>
+                    <li>Gestión del tiempo</li>
+                    <li>Optimización de recursos</li>
+                    <li>Medidor de sonido</li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Proyecto Ibit -->
+<div class="modal fade" id="modalProyecto3" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Ibit - Página web informática</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Ibit es una página web enfocada a la informática.</p>
+                <p>Servicios disponibles:</p>
+                <ul>
+                    <li>Venta de todo tipo de dispositivos informáticos</li>
+                    <li>Mantenimiento y reparación de dispositivos informáticos</li>
+                    <li>Web hosting</li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <span>© 2024 Adrián Elcano Barbero | CIP Cuatrovientos</span>
+    </div>
+</footer>
+
+<!-- Bootstrap JS y jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
